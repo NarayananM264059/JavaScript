@@ -1,0 +1,57 @@
+/* Styles for game container */
+#game-container {
+    display: grid;
+    grid-template-columns: repeat(10, 40px); /* Adjust width as needed */
+    grid-template-rows: repeat(10, 40px); /* Adjust height as needed */
+    gap: 1px;
+    margin: 0 auto;
+    margin-top: 20px; /* Adjust top margin as needed */
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+
+}
+.cell {
+    background-color: #ddd; /* Adjust cell background color */
+    border: 1px solid #888; /* Adjust cell border */
+    text-align: center;
+    line-height: 40px; /* Adjust line height to center content */
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ccc; /* Adjust hover background color */
+}
+
+.mine {
+    background-color: #f00; /* Adjust mine background color */
+}
+
+.revealed {
+    background-color: #fff; /* Adjust revealed cell background color */
+}
+
+/* Styles for result container */
+#result {
+    text-align: center;
+    margin-top: 20px; /* Adjust top margin as needed */
+    font-weight: bold;
+}
+
+/* Styles for reset button */
+#reset-btn {
+    display: block;
+    margin: 20px auto; /* Adjust margin as needed */
+    padding: 10px 20px;
+    background-color: #007bff; /* Adjust button background color */
+    color: #fff; /* Adjust button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background-color: #0056b3; /* Adjust hover background color */
+}
